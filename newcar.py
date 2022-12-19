@@ -214,6 +214,7 @@ def run_simulation(genomes, config):
         if still_alive == 0:
             break
 
+            
         counter += 1
         if counter == 30 * 40: # Stop After About 20 Seconds
             break
